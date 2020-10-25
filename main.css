@@ -18,6 +18,7 @@
 }
 /* Sub Menu Styling */
 .sub-menu {
+<<<<<<< HEAD
   opacity: 0;
   padding-left: 0;
   background-color: #dde1e7;
@@ -27,6 +28,11 @@
   opacity: 100;
 }
 
+=======
+  padding-left: 0;
+  background-color: #dde1e7;
+}
+>>>>>>> 4c76df24607341363fe0b3b1d7ecd95fdf6ba89e
 .sub-menu li {
   display: block;
   width: 100%;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Products
 var productButton = document.getElementById('products');
 var showProductSubMenu = document.getElementById('products-sub');
@@ -27,3 +28,6 @@ function openCompanyPanel() {
 }
 
 companyButton.addEventListener('click', openCompanyPanel);
+=======
+// It is always helpful to use comments in your code!
+>>>>>>> 4c76df24607341363fe0b3b1d7ecd95fdf6ba89e
