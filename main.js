@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Products
 var productButton = document.getElementById('products');
 var showProductSubMenu = document.getElementById('products-sub');
@@ -7,7 +6,8 @@ function openProductsPanel() {
     showProductSubMenu.classList.add('show')
 }
 
-productButton.addEventListener('click', openProductsPanel);
+productButton.addEventListener('mouseover', openProductsPanel);
+
 
 // Services
 var servicesButton = document.getElementById('services');
@@ -17,7 +17,7 @@ function openServicesPanel() {
     showServicesSubMenu.classList.add('show')
 }
 
-servicesButton.addEventListener('click', openServicesPanel);
+servicesButton.addEventListener('mouseover', openServicesPanel);
 
 // Company
 var companyButton = document.getElementById('company');
@@ -27,7 +27,4 @@ function openCompanyPanel() {
     showCompanySubMenu.classList.add('show')
 }
 
-companyButton.addEventListener('click', openCompanyPanel);
-=======
-// It is always helpful to use comments in your code!
->>>>>>> 4c76df24607341363fe0b3b1d7ecd95fdf6ba89e
+companyButton.addEventListener('mouseover', openCompanyPanel);
